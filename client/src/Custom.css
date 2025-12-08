@@ -1,0 +1,17 @@
+/*ex-bg: #d9d4d4*/
+body {
+  background-color: #dedcdc !important;
+
+}
+
+.maroon {
+  background-color: #6f1010
+}
+
+.dark-blue {
+  background-color: #0f3461;
+}
+
+.large-emoji {
+  font-size: 7em;
+}
