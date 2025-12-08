@@ -2,7 +2,7 @@
 This is the official repository for Dr. Claire Lee's website. The other repository is meant for a class project, so you can ignore that. This repo will contain all of the information needed for the website, which is hosted on Github Pages and will be frontend only.
 
 # Get Started
-To edit this website, clone this repository to your machine. Next, switch to the client folder and run the following
+To edit this website, clone this repository to your machine. Then run the following
 ```bash 
 npm install
 ```
