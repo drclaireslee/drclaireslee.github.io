@@ -5,33 +5,20 @@
  * 
  */
 
-import { useEffect, useState } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 import './Team.css';
 import AILabHeader from "./components/pagenavbar";
 import Footer from "./components/footer";
+import labMember_data from "./json_files/lab_members.json"
+import LabMemberCard from "./components/labmembercard";
 import claireLeePhoto from '/assets/claire_lee_photo.jpg';
 
 
 /**Pull infor about lab members from database */
-const Team = () => {
-  const [students, setStudents] = useState([]);
+function Team() {
 
-  useEffect(() => {
-    const fetchStudents = async () => {
-      try {
-        const res = await fetch("https://drclaireslee-backend.vercel.app/api/labMember/all");
-        if (!res.ok) throw new Error("Failed to fetch students");
-        const data = await res.json();
-        setStudents(data);
-      } catch (error) {
-        console.error(error);
-      }
-    };
 
-    fetchStudents();
-  }, []);
 
   return (
     <div>
@@ -45,7 +32,7 @@ const Team = () => {
             <br/>
             <Row role="row" aria-label="dr claire lee info">
                 <Col md={3} className='align-items-start'>
-                    <Image src={claireLeePhoto} width={"250"} height={"250"} rounded alt='dr claire lee profile picture' className='p-2'/>
+                    <Image src={claireLeePhoto} width={"250"} height={"250"} rounded alt='dr claire lee profile picture' className='p-2 bg-dark'/>
                 </Col>
                 <Col md={9}>
                     <p className='text-start fs-5'><b>Dr. Claire Seungeun Lee</b> is an Associate Professor in the <a href='https://www.uml.edu/fahss/criminal-justice/'>School of Criminology and Justice Studies</a> and a Co-Director of the <a href='https://www.uml.edu/research/caas/'>Center for Asian American Studies (CASS)</a>.  </p>
@@ -61,21 +48,26 @@ const Team = () => {
                     </address>
                 </Col>
             </Row>
+
+           
         </Container>
 
         
         {/**Team members info */}
-        <Container fluid className='p-2 bg-white' role="section" aria-label='team members'>
-            <hr/>
-        
-            
-            <Container fluid className="py-2 bg-white" role="section" aria-label="team members">
-                <h1 className="mb-4 text-center">Meet the Members</h1>
-                <br/>
-                <br/>
-                <br/>
-            </Container>
+        <Container fluid className='py-2 bg-white' role="section" aria-label="team members section">
+           <hr/>
+           <h1 className="text-center">Meet the Members</h1>
+           <br/>
+           {labMember_data.map((card, idx) => {
+                return(<LabMemberCard key={idx} lab_image={card.lab_image} lab_name={card.lab_name} lab_degree={card.lab_degree} lab_department={card.lab_department} lab_scholarship={card.lab_scholarship} lab_research_interests={card.lab_research_interests}/>)
+            })}
+
         </Container>
+     
+            
+
+          
+   
 
 
         <Footer/>
@@ -83,4 +75,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Team

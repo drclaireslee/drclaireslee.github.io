@@ -1,0 +1,75 @@
+[
+    {
+        "lab_image": "/assets/lab_members/ai_cyren_mengyan_liu.png", 
+        "lab_name": "Lia Mengyan Liu", 
+        "lab_degree": "PhD Student",
+        "lab_department": "Co-Advisee, School of Criminology and Justice Studies", 
+        "lab_scholarship": "", 
+        "lab_research_interests": "Anti-Asian hate crime, terrorism"
+    },
+    {
+        "lab_image": "/assets/lab_members/ai_cyren_huzaifa_shaikh.png", 
+        "lab_name": "Huzaifa Shaikh", 
+        "lab_degree": "PhD Student",
+        "lab_department": "Co-Advisee, Miner School of Computer and Information Sciences", 
+        "lab_scholarship": "", 
+        "lab_research_interests": "Data breach, cybercrime"
+    },
+    {
+        "lab_image": "/assets/lab_members/ai_cyren_nathan_percival.png", 
+        "lab_name": "Nathan Percival", 
+        "lab_degree": "PhD Student",
+        "lab_department": "Co-Advisee, Miner School of Computer and Information Sciences", 
+        "lab_scholarship": "", 
+        "lab_research_interests": "Cybersecurity education"
+    },
+    {
+        "lab_image": "/assets/umllogo.svg", 
+        "lab_name": "William Breen", 
+        "lab_degree": "Undergraduate Student",
+        "lab_department": "Miner School of Computer and Information Sciences", 
+        "lab_scholarship": "Immersive Scholar (2025-2026)", 
+        "lab_research_interests": "Cryptocurrency fraud, computational approach"
+    },
+    {
+        "lab_image": "/assets/umllogo.svg", 
+        "lab_name": "Anna Guzik", 
+        "lab_degree": "Undergraduate Student",
+        "lab_department": "Miner School of Computer and Information Sciences", 
+        "lab_scholarship": "Honors Fellowship Advisor (Spring 2026)", 
+        "lab_research_interests": "Cryptocurrency fraud, crime prevention"
+    },
+    {
+        "lab_image": "/assets/umllogo.svg", 
+        "lab_name": "Sowndaryan Jayaprakashanand", 
+        "lab_degree": "Undergraduate Student",
+        "lab_department": "Miner School of Computer and Information Sciences", 
+        "lab_scholarship": "Honors Student Advisor (2024-2025)", 
+        "lab_research_interests": "Cryptocurrency fraud, computational approach"
+    },
+    {
+        "lab_image": "/assets/lab_members/halliemoeller.jpg", 
+        "lab_name": "Hallie Moeller", 
+        "lab_degree": "Undergraduate Student",
+        "lab_department": "Department of Psychology", 
+        "lab_scholarship": "Honors Thesis Committee Member (2025-2026)", 
+        "lab_research_interests": "Organizational behavior, policy analysis"
+    },
+    {
+        "lab_image": "/assets/lab_members/daniellapena.jpg", 
+        "lab_name": "Daniela Peña", 
+        "lab_degree": "Alumni",
+        "lab_department": "School of Criminology and Justice Studies", 
+        "lab_scholarship": "Immersive Scholar (2022-2023)", 
+        "lab_research_interests": "N/A"
+    },
+    {
+        "lab_image": "/assets/lab_members/haleyluis.jpg", 
+        "lab_name": "Haley Luis", 
+        "lab_degree": "Alumni",
+        "lab_department": "School of Criminology and Justice Studies", 
+        "lab_scholarship": "Honors Thesis Advisor (2021-2022)", 
+        "lab_research_interests": "N/A"
+    }
+    
+]

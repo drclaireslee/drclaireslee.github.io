@@ -8,7 +8,7 @@
 import AILabHeader from "./components/pagenavbar";
 import { Container } from "react-bootstrap";
 import ResearchCard from "./components/researchcard";
-import research_data from './research_grants.json';
+import research_data from './json_files/research_grants.json';
 import Footer from "./components/footer";
 
 function ResearchGrants() {

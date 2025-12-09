@@ -2,7 +2,8 @@
 /**
  * Name: Research Card Component
  * Filename: researchcard.jsx
- * Description: This component is used to list information about each of Dr. Lee's grants. 
+ * Description: This component is used to list information about each of Dr. Lee's grants. Each card is created
+ * by reading information about each grant from the json_files/research.json file.
  */
 
 /**
