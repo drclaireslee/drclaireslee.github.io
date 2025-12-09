@@ -32,7 +32,7 @@ function Team() {
             <br/>
             <Row role="row" aria-label="dr claire lee info">
                 <Col md={3} className='align-items-start'>
-                    <Image src={claireLeePhoto} width={"250"} height={"250"} rounded alt='dr claire lee profile picture' className='p-2 bg-dark'/>
+                    <Image src={claireLeePhoto} width={"250"} height={"250"} rounded alt='dr claire lee profile picture' className='p-2'/>
                 </Col>
                 <Col md={9}>
                     <p className='text-start fs-5'><b>Dr. Claire Seungeun Lee</b> is an Associate Professor in the <a href='https://www.uml.edu/fahss/criminal-justice/'>School of Criminology and Justice Studies</a> and a Co-Director of the <a href='https://www.uml.edu/research/caas/'>Center for Asian American Studies (CASS)</a>.  </p>

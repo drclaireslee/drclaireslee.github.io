@@ -27,7 +27,7 @@ function LabMemberCard({lab_image, lab_name, lab_degree, lab_department, lab_sch
             <Row role="row" aria-label="lab member info">
                 {/**Lab member image */}
                 <Col md={3} role="column" aria-label="lab member image">
-                    <Image src={lab_image} fluid width={"250"} height={"250"} rounded alt='lab member profile picture' className="p-2 bg-dark"/>
+                    <Image src={lab_image} fluid width={"250"} height={"250"} rounded alt='lab member profile picture' className="p-2"/>
                 </Col>
 
                 {/**Information about each lab member */}

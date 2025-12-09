@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "drclaireslee.github.io",
+  "homepage": "https://drclaireslee.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
