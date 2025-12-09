@@ -22,7 +22,7 @@ function Footer() {
                     </Col>
 
                     {/*Links to each page */}
-                    <Col role="column" aria-label="list of pages">
+                    <Col role="column" aria-label="list of site pages">
                         <Nav className="flex-column">
                             Pages
                             <a href={"/"} role='navigation' aria-label='about page'>About</a>
@@ -32,6 +32,17 @@ function Footer() {
                             <a href={"/team"} role='navigation' aria-label='members page'>Members</a>
                             <a href={"/contact"} role='navigation' aria-label='contact page'>Contact</a>
                             <a href={"/activities"} role='navigation' aria-label='contact page'>Activities</a>
+                        </Nav>
+                    </Col>
+
+                    <Col role="column" aria-label="list of research lab links">
+                        <Nav className="flex-column">
+                            Other Research Labs
+                            <a href="https://www.uml.edu/Research/CTSS/">CTSS Lab</a>
+                            <a href="https://www.uml.edu/research/isafer/">iSAFER Lab</a>
+                            <a href="https://www.uml.edu/research/public-opinion/">Center for Public Opinion (CPO)</a>
+                            <a href="https://www.uml.edu/research/caas/">Center for Asian American Studies (CAAS)</a>
+                            <a href="https://www.uml.edu/fahss/criminal-justice/">School of Criminology and Justice Studies</a>
                         </Nav>
                     </Col>
                 </Row>

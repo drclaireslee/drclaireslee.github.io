@@ -2,6 +2,7 @@
  * Name: Embedded Map
  * Filename: embeddedMap.jsx
  * Description: This component uses the Leaflet library to show Dr. Lee's office location.
+ * https://leafletjs.com/
  * This component also uses a .css file (embeddedMap.css) for sizing
  * 
  */

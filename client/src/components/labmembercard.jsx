@@ -4,6 +4,9 @@
  * Filename: labmembercard.jsx
  * Description: This component is used to list information about each lab member. Each card is created
  * by reading information about each member from the json_files/lab_members.json file.
+ * 
+ * NOTE: All lab member information for both current and former students is stored in the json_files/lab_members.json file.
+ * You can separate this data into multiple .json files in the future if Dr. Lee wishes to separate students by category.
  */
 
 /**

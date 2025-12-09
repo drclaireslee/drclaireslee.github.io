@@ -7,7 +7,6 @@
 
 import { Container, Row, Col, Image } from "react-bootstrap";
 
-import './Team.css';
 import AILabHeader from "./components/pagenavbar";
 import Footer from "./components/footer";
 import labMember_data from "./json_files/lab_members.json"

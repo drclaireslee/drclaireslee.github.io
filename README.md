@@ -1,5 +1,5 @@
 # Dr Claire S. Lee Official Website
-This is the official repository for Dr. Claire Lee's website. The other repository is meant for a class project, so you can ignore that. This repo will contain all of the information needed for the website, which is hosted on Github Pages and will be frontend only.
+This is the official repository for Dr. Claire Lee's website. The other repository is meant for a class project, so you can ignore that. This repo will contain all of the information needed for the website, which is hosted on Github Pages and is frontend only.
 
 # Get Started
 To edit this website, clone this repository to your machine. Then switch to the client directory and run the following command
@@ -13,9 +13,10 @@ After committing to main (directly or via another dev branch), run the following
 ```bash
 npm run deploy
 ```
-
 This will deploy any changes to the gh-pages branch, which will display the changes on the website.
-DO NOT MODIFY THE GH-PAGES BRANCH DIRECTLY, as this can cause errors with deployment.
+<b>DO NOT MODIFY THE GH-PAGES BRANCH DIRECTLY</b>, as this can cause errors with deployment.
+
+<b>NOTE</b>: It will take a few minutes for your build to complete after deploying. Changes to the site will not come immediately.
 
 # Website Description Given By Dr. Claire Lee: 
 I am planning to update my professional website to better showcase my recent research activities and teaching experiences. The updated site will serve as a comprehensive platform to highlight my academic and professional contributions, while also providing useful information for different audiences.
@@ -33,7 +34,38 @@ The primary audiences for the website are current and prospective students, as w
 
 Thank you!
 
-# Client Folder
+# Client Folder Documentation
 This is where all of the front-end work is stored (i.e. React, CSS, etc.) using Vite.
+* public / assets: Contains all of the images used on the website
+    * Lab Members: Contains images of all of the lab members
+* src: Source code for the entire project
+    * Components: This folder contains reusable pieces of code for other pages
+    * JSON Files: 
+        This folder conatains information for lab members and research grants
+    
+    * Pages
+        * App.jsx: The home page
+        * Research.jsx: The research page
+        * Teaching.jsx: The teaching page
+        * Grants.jsx: The grants page
+        * Team.jsx: The members/team page
+        * Activities.jsx: The activities page
+        * Contact.jsx: The contact page
+
+* Misc. files: 
+    * App.css: CSS for the entire website provided by Vite (DO NOT TOUCH)
+    * index.css: CSS for certain HTML elements provided by Vite (DO NOT TOUCH)
+    * Custom.css: Any CSS rules added to override Bootstrap CSS and Vite components; this can be edited
+    * main.jsx: Routing for pages using react-router-dom (Only HashRouter works for Github Pages)
+
+
+# Contributors
+This website was made by the following people with love and care:
+* Anton Kovalev
+* Kriston Theng
+* Rohan Mallu
+* Russell Jones
+* Zuriel Pagan
+
 
 
