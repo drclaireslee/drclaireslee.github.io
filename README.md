@@ -1,5 +1,12 @@
 # Dr Claire S. Lee Official Website
-This is the official repository for Dr. Claire Lee's website. The other repository is meant for a class project, so you can ignore that. This repo will contain all of the information needed for the website, which is hosted on Github Pages and is frontend only.
+This is the official repository for Dr. Claire Lee's website. The other repository is meant for a class project, so you can ignore that. This repository will contain all of the information needed for the website, which is hosted on GitHub Pages and is frontend only.
+
+This website uses React,  Vite, and JavaScript as the framework. You can learn more about it here: https://vite.dev/guide/
+
+Bootstrap and React-Bootstrap are the main CSS libraries used for the website. These libraries can be installed through node modules (more details in the getting started section).
+
+React-Bootstrap: https://react-bootstrap.netlify.app/docs/getting-started/introduction
+Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
 # Website Description Given By Dr. Claire Lee: 
 I am planning to update my professional website to better showcase my recent research activities and teaching experiences. The updated site will serve as a comprehensive platform to highlight my academic and professional contributions, while also providing useful information for different audiences.
@@ -18,7 +25,7 @@ The primary audiences for the website are current and prospective students, as w
 Thank you!
 
 # Get Started
-To edit this website, clone this repository to your machine. Then switch to the client directory and run the following command to install the node modules for the project.
+To edit this website, clone this repository to your machine. Then switch to the client directory and run the following command to install the node modules.
 ```bash 
 npm install
 ```
