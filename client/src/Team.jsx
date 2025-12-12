@@ -58,7 +58,7 @@ function Team() {
            <h1 className="text-center">Meet the Members</h1>
            <br/>
            {labMember_data.map((card, idx) => {
-                return(<LabMemberCard key={idx} lab_image={card.lab_image} lab_name={card.lab_name} lab_degree={card.lab_degree} lab_department={card.lab_department} lab_scholarship={card.lab_scholarship} lab_research_interests={card.lab_research_interests}/>)
+                return(<LabMemberCard key={idx} lab_image={card.lab_image} lab_name={card.lab_name} lab_degree={card.lab_degree} lab_department={card.lab_department} lab_scholarship={card.lab_scholarship} lab_research_interests={card.lab_research_interests} lab_email={card.lab_email}/>)
             })}
 
         </Container>

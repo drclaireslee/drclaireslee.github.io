@@ -5,7 +5,8 @@
         "lab_degree": "PhD Student",
         "lab_department": "Co-Advisee, School of Criminology and Justice Studies", 
         "lab_scholarship": "", 
-        "lab_research_interests": "Anti-Asian hate crime, terrorism"
+        "lab_research_interests": "Anti-Asian hate crime, terrorism",
+        "lab_email": "mailto:Mengyan_Liu@student.uml.edu"
     },
     {
         "lab_image": "/assets/lab_members/ai_cyren_huzaifa_shaikh.png", 
@@ -13,7 +14,8 @@
         "lab_degree": "PhD Student",
         "lab_department": "Co-Advisee, Miner School of Computer and Information Sciences", 
         "lab_scholarship": "", 
-        "lab_research_interests": "Data breach, cybercrime"
+        "lab_research_interests": "Data breach, cybercrime",
+        "lab_email": "mailto:Huzaifa_Shaikh@student.uml.edu"
     },
     {
         "lab_image": "/assets/lab_members/ai_cyren_nathan_percival.png", 
@@ -21,7 +23,8 @@
         "lab_degree": "PhD Student",
         "lab_department": "Co-Advisee, Miner School of Computer and Information Sciences", 
         "lab_scholarship": "", 
-        "lab_research_interests": "Cybersecurity education"
+        "lab_research_interests": "Cybersecurity education",
+        "lab_email": "mailto:Nathan_Percival@student.uml.edu"
     },
     {
         "lab_image": "/assets/umllogo.svg", 
@@ -29,7 +32,8 @@
         "lab_degree": "Undergraduate Student",
         "lab_department": "Miner School of Computer and Information Sciences", 
         "lab_scholarship": "Immersive Scholar (2025-2026)", 
-        "lab_research_interests": "Cryptocurrency fraud, computational approach"
+        "lab_research_interests": "Cryptocurrency fraud, computational approach",
+        "lab_email": "mailto:William_Breen@student.uml.edu"
     },
     {
         "lab_image": "/assets/umllogo.svg", 
@@ -37,15 +41,17 @@
         "lab_degree": "Undergraduate Student",
         "lab_department": "Miner School of Computer and Information Sciences", 
         "lab_scholarship": "Honors Fellowship Advisor (Spring 2026)", 
-        "lab_research_interests": "Cryptocurrency fraud, crime prevention"
+        "lab_research_interests": "Cryptocurrency fraud, crime prevention",
+        "lab_email": "mailto:Anna_Guzik@student.uml.edu"
     },
     {
-        "lab_image": "/assets/umllogo.svg", 
+        "lab_image": "/assets/lab_members/ai_cyren_sowndaryan_jayaprakashanand.jpg", 
         "lab_name": "Sowndaryan Jayaprakashanand", 
         "lab_degree": "Undergraduate Student",
         "lab_department": "Miner School of Computer and Information Sciences", 
         "lab_scholarship": "Honors Student Advisor (2024-2025)", 
-        "lab_research_interests": "Cryptocurrency fraud, computational approach"
+        "lab_research_interests": "Machine learning applications in the legal/medical field",
+        "lab_email": "mailto:Sowndaryan_Jayaprakashanand@student.uml.edu"
     },
     {
         "lab_image": "/assets/lab_members/ai_cyren_hallie_moeller.jpg", 
@@ -53,7 +59,8 @@
         "lab_degree": "Undergraduate Student",
         "lab_department": "Department of Psychology", 
         "lab_scholarship": "Honors Thesis Committee Member (2025-2026)", 
-        "lab_research_interests": "Organizational behavior, policy analysis"
+        "lab_research_interests": "Organizational behavior, policy analysis",
+        "lab_email": "mailto:Hallie_Moeller@student.uml.edu"
     },
     {
         "lab_image": "/assets/lab_members/ai_cyren_daniela_pena.jpg", 
@@ -61,7 +68,8 @@
         "lab_degree": "Alumni",
         "lab_department": "School of Criminology and Justice Studies", 
         "lab_scholarship": "Immersive Scholar (2022-2023)", 
-        "lab_research_interests": "N/A"
+        "lab_research_interests": "",
+        "lab_email": ""
     },
     {
         "lab_image": "/assets/lab_members/ai_cyren_haley_luis.jpg", 
@@ -69,7 +77,8 @@
         "lab_degree": "Alumni",
         "lab_department": "School of Criminology and Justice Studies", 
         "lab_scholarship": "Honors Thesis Advisor (2021-2022)", 
-        "lab_research_interests": "N/A"
+        "lab_research_interests": "",
+        "lab_email": ""
     }
     
 ]

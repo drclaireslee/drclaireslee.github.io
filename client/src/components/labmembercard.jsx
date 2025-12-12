@@ -17,13 +17,14 @@
  * @param {*} lab_department - Major/Department the lab member belongs to 
  * @param {*} lab_scholarship - Fellowship/Scholarship the lab member is using for this research lab
  * @param {*} lab_research_interests - Lab member's research interests
+ * @param {*} lab_email - Lab member's student email
  * @returns A component containing information about a lab member
  */
 
 import { Col, Row, Image } from "react-bootstrap"
 
 
-function LabMemberCard({lab_image, lab_name, lab_degree, lab_department, lab_scholarship, lab_research_interests}) {
+function LabMemberCard({lab_image, lab_name, lab_degree, lab_department, lab_scholarship, lab_research_interests, lab_email}) {
     return(
         <>
          {/**Information for a lab member */}
@@ -37,8 +38,16 @@ function LabMemberCard({lab_image, lab_name, lab_degree, lab_department, lab_sch
                 <Col md={9} role="column" aria-label="lab member info" > 
                     <p className="fs-3"><strong>{lab_name}</strong></p>
                     <p className="fs-4">{lab_degree}, {lab_department}</p>
-                    <p className="fs-4">{lab_scholarship}</p>
-                    <p className="fs-4"><b>Research Interests:</b> {lab_research_interests}</p>
+
+                    {/*Render lab member's scholarship if it exists */}
+                    {lab_scholarship ? (<p className="fs-4">Scholarship: {lab_scholarship}</p>) : <p></p>}
+
+                    {/*Render lab member's research interests if it exists */}
+                    {lab_research_interests ? (<p className="fs-4"><b>Research Interests:</b> {lab_research_interests}</p>) : <p></p>}
+
+                    {/*Render email if it exists */}
+                    {lab_email ? (<a href={lab_email} className="btn btn-primary btn-lg">Email</a>) : <p></p>}
+                    
                                      
                 </Col>
             </Row>
