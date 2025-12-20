@@ -5,7 +5,7 @@ This website uses React,  Vite, and JavaScript as the framework. You can learn m
 
 Bootstrap and React-Bootstrap are the main CSS libraries used for the website. These libraries can be installed through node modules (more details in the getting started section).
 
-React-Bootstrap: https://react-bootstrap.netlify.app/docs/getting-started/introduction
+React-Bootstrap: https://react-bootstrap.netlify.app/docs/getting-started/introduction <br/>
 Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
 # Website Description Given By Dr. Claire Lee: 
@@ -54,7 +54,7 @@ This is where all of the front-end work is stored (i.e. React, CSS, etc.) using 
 * src: Source code for the entire project
     * Components: This folder contains reusable pieces of code for other pages
     * JSON Files: 
-        This folder conatains information for lab members and research grants
+        This folder contains information for lab members and research grants
     
     * Pages
         * App.jsx: The home page
